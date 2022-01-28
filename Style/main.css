@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+    /* font-family: 'Comforter', cursive; */
+    /* color: blanchedalmond;
+    background-image: linear-gradient(to right, #040505,#3ee7e7,#565d56,#357c7c,black); */
+}
+
+/* .header{
+    font-size: xx-large;
+    text-align: center;
+
+} */
+
+
+.drumKit {
+    /* border: solid black 1px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    
+    font-size: medium;
+    text-align: start;
+
+   
+}
+
+.drumKit div {
+    /* border: solid rgb(199, 22, 140) 3px; */
+    display: flex;
+    
+    justify-content: center;
+   
+    height: 200px;
+    width: 200px;
+
+}
+
+
+
+
+
+body {
+ 
+   font-family: 'Codystar';
+   background: black;
+   color:blanchedalmond;
+   font-size: x-large;
+}
+
+.neons {
+   margin-top: 10rem;
+   text-align: center;
+}
+
+.neons h1 {
+  font-size: 9rem;
+  text-align: center;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  
+  to {
+     color: gray;
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
