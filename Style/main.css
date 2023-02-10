@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
 
 
@@ -6,70 +6,63 @@
 
 *{
     box-sizing: border-box;
-    /* font-family: 'Comforter', cursive; */
-    /* color: blanchedalmond;
-    background-image: linear-gradient(to right, #040505,#3ee7e7,#565d56,#357c7c,black); */
+    
 }
 
-/* .header{
-    font-size: xx-large;
-    text-align: center;
+body {
+  background: #252525;
+  color:blanchedalmond;
+  font-family: 'Codystar';
+  
+}
 
-} */
 
 
 .drumKit {
-    /* border: solid black 1px; */
-    width: 100%;
     display: flex;
-    justify-content: center;
-    /* text-align: center; */
     flex-wrap: wrap;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 5%;
-    
-    font-size: medium;
-    text-align: start;
-
-   
+    justify-content: space-between;
 }
 
 .drumKit div {
-    /* border: solid rgb(199, 22, 140) 3px; */
+    color: white;
     display: flex;
-    
+    height: 250px;
     justify-content: center;
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+
+}
+.drumKit div:hover{
+  border: 3px solid #00fff2;
+}
+
+.drumKit div:active {
+  border: 1px solid white;
+}
+
+
+@media (max-width: 400px){
+  .drumKit{
+    flex-direction: column;
    
-    height: 200px;
-    width: 200px;
+  }
 
 }
 
-
-
-
-
-body {
- 
-   font-family: 'Codystar';
-   background: black;
-   color:blanchedalmond;
-   font-size: x-large;
-}
 
 .neons {
-   margin-top: 10rem;
    text-align: center;
 }
 
 .neons h1 {
-  font-size: 9rem;
-  text-align: center;
-   font-weight: bold;
   -webkit-animation: glow 2s ease-in-out infinite alternate;
   -moz-animation: glow 2s ease-in-out infinite alternate;
   animation: glow 2s ease-in-out infinite alternate;
+  font-size: 5rem;
+   font-weight: bold;
+  text-align: center;
 }
 
 @-webkit-keyframes glow {
