@@ -177,16 +177,6 @@ tomImage.addEventListener("click", () => {
 });
 
 
-// const drumKit = document.querySelector(".drumKit");
 
-drumKit.addEventListener("keydown", (e) => {
-    const activeDrum = document.querySelector(`div[data-key="${e.keyCode}"]`);
-    activeDrum.classList.add("active");
-});
-
-drumKit.addEventListener("keyup", (e) => {
-    const activeDrum = document.querySelector(`div[data-key="${e.keyCode}"]`);
-    activeDrum.classList.remove("active");
-});
 
 
